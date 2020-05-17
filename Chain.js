@@ -14,6 +14,6 @@ class Chain{
         var posA = this.chain.bodyA.position;
         var posB = this.chain.bodyB.position;
         stroke(255);
-        //line(posA.x,posA.y,posB.x,posB.y);
+        line(posA.x,posA.y,posB.x,posB.y);
     }
 };
